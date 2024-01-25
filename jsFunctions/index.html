@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Functions Tutorials</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body style="background-color: black;">
+        <h1 style="color: white;">JS Functions</h1>
+
+        <script>
+
+            let add7 =n => {
+               return n + 7;
+
+            }
+
+            let multiply = (m,n) => {
+                return (m * n)
+            }
+
+            let capitalize = (str)=> {
+                 return str[0].toUpperCase()
+            }
+
+            let lastLetter = (str) => {
+                let result = str.length-1;
+                return str[result];
+            }
+
+            console.log(add7(20))
+            console.log(multiply(5,4))
+            console.log(capitalize('computer'))
+            console.log(lastLetter('Computer science'))
+
+            //assignment on The Odin Projects fundamentals part 3
+        </script>
+    </body>
+
+</html>
