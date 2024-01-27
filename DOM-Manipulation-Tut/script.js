@@ -1,4 +1,4 @@
-let btn = document.querySelector('.button');
+let btn = document.querySelector('.button-area');
 let quote = document.querySelector('.quote');
 let person = document.querySelector('.person');
 
