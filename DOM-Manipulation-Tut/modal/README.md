@@ -1,0 +1,1 @@
+key concepts for this project include; document.getElementbyId(), addEventListener(), e.target, CSS Styling through JS, CSS Animation. copied most code for the css styling since JS was the focus in this project
